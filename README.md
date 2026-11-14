@@ -1,15 +1,30 @@
-PORTFOLIO UPDATE — v2
+JOËL KAMDEM PORTFOLIO — FIXED PACKAGE
 
-This package contains the updated homepage, six separate interactive project pages, and shared styling.
+IMPORTANT: Extract this ZIP first. Do not upload the ZIP itself.
 
-To publish:
-1. Download and extract this ZIP on your computer.
-2. Open your GitHub repository: joelarthurdev.github.io
-3. Upload ALL extracted contents to the repository root: index.html, assets folder, projects folder, README.md.
-4. Confirm replacement of the old index.html and addition of new files.
-5. Commit changes to main.
-6. Wait a few minutes, then visit https://joelarthurdev.github.io/
+After extraction, you should see this exact structure:
 
-Do not upload the ZIP itself; upload the extracted files and folders.
+index.html
+README.md
+assets/
+    style.css
+projects/
+    arctic-inventory.html
+    business-website.html
+    student-grade-manager.html
+    task-manager.html
+    employee-database.html
+    system-monitor.html
 
-Accuracy: The projects are demonstrations/reconstructions. Browser demos illustrate concepts and do not claim to be production C++/Python backends or live server monitoring.
+UPLOAD STEPS
+1. Open your GitHub repository: https://github.com/joelarthurdev/joelarthurdev.github.io
+2. If the previous upload was flattened/mixed, remove the old project files and old assets/style.css as needed, or easiest: upload this corrected package's extracted contents and replace matching files.
+3. In GitHub's Upload files page, drag the `index.html` FILE, plus the `assets` FOLDER and `projects` FOLDER together. Do not open the folders and drag only their contents.
+4. The repository root must show `index.html`, `assets` and `projects` side by side.
+5. Commit to `main`, wait a few minutes, then refresh https://joelarthurdev.github.io/ with Ctrl+F5.
+
+CSS PATHS
+- Homepage: assets/style.css
+- Project pages: ../assets/style.css
+
+This package also fixes the project-page stylesheet path from the previous version.
