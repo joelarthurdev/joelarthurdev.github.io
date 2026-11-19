@@ -28,3 +28,9 @@ CSS PATHS
 - Project pages: ../assets/style.css
 
 This package also fixes the project-page stylesheet path from the previous version.
+
+
+SKILLS SECTION UPDATE
+- The Skills section now uses a two-row horizontal scrolling marquee with technology logos and concept icons.
+- Hovering over the skills area pauses the movement on desktop. Reduced-motion preferences are respected.
+- Technology logos are loaded from the Devicon CDN, so an internet connection is required for those images.
